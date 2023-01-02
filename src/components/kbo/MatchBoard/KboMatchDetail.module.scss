@@ -1,0 +1,44 @@
+@import '/src/color.scss';
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 0px;
+
+  &:not(:last-of-type) {
+    border-bottom: 1px solid $deep-border-color;
+  }
+}
+
+.item {
+  flex: 1;
+}
+
+.item-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.start-time {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.state {
+  font-weight: bold;
+  font-size: 13px;
+  color: $match-state;
+}
+
+.record {
+  display: inline-block;
+  margin-top: 3px;
+  padding: 1px 8px;
+  font-size: 11px;
+  border: 1px solid #80808099;
+  text-decoration: none;
+  color: black;
+}

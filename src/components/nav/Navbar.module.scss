@@ -1,0 +1,26 @@
+@import '/src/color.scss';
+
+.container { 
+  display: flex;
+  width: 100%;
+  background-color: $main-blue;
+}
+
+.selected {
+  background-color: $selected-blue;
+}
+
+.item-wrapper {
+  display: flex;
+  flex: 1;
+  padding: 8px 0px;
+  justify-content: center;
+}
+
+.item {
+  padding: 6px 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+}

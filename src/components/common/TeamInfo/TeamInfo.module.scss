@@ -1,0 +1,26 @@
+@import '/src/color.scss';
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 9px;
+}
+
+.name{
+  flex: 1;
+  font-weight: bold;
+  font-size: 15px;
+  color: $main-blue;
+}
+
+.right-name {
+  @extend .name;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.score {
+  font-weight: bold;
+  font-size: 18px;
+}
